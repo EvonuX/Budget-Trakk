@@ -1,0 +1,30 @@
+.button {
+  border: 1px solid $off-white;
+  color: $off-white;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+  transition: all .2s ease;
+  &:hover {
+    background: $off-white;
+    color: $dark-blue;
+  }
+  &--link {
+    background: none;
+    border: none;
+  }
+  &--submit {
+    background: $off-white;
+    color: $dark-blue;
+  }
+  &--login {
+    background: $dark-blue;
+    color: $off-white;
+  }
+  &--secondary {
+    background: none;
+  }
+}

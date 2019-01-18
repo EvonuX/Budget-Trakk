@@ -1,0 +1,17 @@
+.header {
+  border-bottom: 2px solid $off-white;
+  background: rgba(0, 0, 0, .5);
+  &__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size 0;
+  }
+  &__title {
+    color: #fff;
+    text-decoration: none;
+    h1 {
+      margin: 0;
+    }
+  }
+}
